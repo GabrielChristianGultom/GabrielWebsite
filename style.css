@@ -1,0 +1,79 @@
+body {
+    background-color: plum;
+}
+
+header {
+    border: 1px solid #F95454;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    color: blue;
+}
+
+header p {
+    font-style: italic;
+}
+header img {
+    width: 30%;
+    border: 2px solid #F95454;
+    border-radius: 50%;
+
+}
+header img:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+    box-shadow: 2px 2px 12px yellow;
+}
+
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 30px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 15px;
+    border: 1px solid red;
+}
+header button:hover {
+    background-color: grey;
+    color: darkblue;
+    
+}
+
+.about {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.about h2 {
+    color: blue;
+}
+
+.project {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid red;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project img {
+    width: 40%;
+}
+.project img:hover{
+    transform: scale(.8);
+    transition: all.3s ease-in-out;
+    box-shadow: 2px 2px 12px yellow;
+}
+footer{
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+    background-color: #F95454;
+    color: blue;
+}
